@@ -18,7 +18,6 @@ class ENTConsultationSystem:
             "<h3 style='text-align: center; color: #4CAF50;'>快速且專業地了解您的症狀</h3>",
             unsafe_allow_html=True,
         )
-        st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTV4PLc1p8eReJ8pFRiiKqUTZ173_mDbHEA&s", caption="吉叭")  # 加入圖片
 
         # 初始化Session State
         if "current_symptom" not in st.session_state:

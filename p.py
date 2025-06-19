@@ -18,7 +18,6 @@ class ENTConsultationSystem:
             "<h3 style='text-align: center; color: #4CAF50;'>快速且專業地了解您的症狀</h3>",
             unsafe_allow_html=True,
         )
-
         # 初始化Session State
         if "current_symptom" not in st.session_state:
             st.session_state.current_symptom = None
